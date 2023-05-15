@@ -1,0 +1,96 @@
+body{
+    
+    background-color: black;
+    color: #fff;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    color: #fff;
+    text-transform: uppercase;
+    margin-left: 10px;
+    margin: auto;
+    background-color: black;
+    width: 100%;
+   
+}
+
+.collapsible{
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    text-align: right;
+    outline: none;
+    font-size: 15px;
+}
+
+.active, .collapsible:hover {
+    background-color: #2d2323;
+}
+
+.content{
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #fff;
+    transition: max-height 0.2s ease-in-out;
+}
+
+.parallax{
+    background-image: url("images/sickrobro.jpeg");
+    /* am pretty sure this is an official promo image for an armored core game */
+    min-height: 60vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.article-title{
+    text-align: center;
+}
+
+.page{
+    font-size: x-large;
+    text-align: center;
+
+    height: 20vh;
+    background-image: linear-gradient(
+    180deg,
+    hsl(0deg 0% 0%) 0%,
+    hsl(344deg 0% 7%) 39%,
+    hsl(344deg 0% 7%) 61%,
+    hsl(0deg 0% 0%) 100%
+);
+}
+
+.parallax-2{
+    background-image: url(images/armoredcoreCE.jpg);
+    
+    min-height: 60vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-3{
+    background-image: url(images/morecore1.jpg);
+
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.trailer-link{
+    margin-left: auto;
+    margin-right: auto;
+}
